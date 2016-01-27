@@ -1,8 +1,8 @@
 body
 {
 	background-color: linen;
-	background-image: CheckPrimeNumber.jpg;
-	background-repeat: no repeat;
+	background-image: url("CheckPrimeNumber.jpg");
+	background-repeat: no-repeat;
 	background-position: right top;
 }
 
@@ -13,14 +13,4 @@ h1
     font-family: "Times New Roman";
 }
 
-.printr{
-	font-family: Comic sans MS;
-	font-size: 20px;
-	font-color: red;
-}
 
-.printg{
-	font-family: Comic sans MS;
-	font-size: 20px;
-	font-color: green;
-}
