@@ -1,10 +1,4 @@
-body
-{
-	background-color: linen;
-	background-image: url("CheckPrimeNumber.jpg");
-	background-repeat: no-repeat;
-	background-position: right top;
-}
+
 
 h1
 {
@@ -13,4 +7,19 @@ h1
     font-family: "Times New Roman";
 }
 
+.container {
+	background-image: url("CheckPrimeNumber.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+    height:400px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:larger;
+    /*color:aqua;*/
+}
+#output{
+   color:azure;
+   font-weight:bold; 
+
+}
 
