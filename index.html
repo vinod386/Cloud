@@ -5,10 +5,13 @@
 	</head>
 	<body>
 		<h1>Prime number validation</h1>
-		<form action="prime.php” method="post">
-			Please enter a number:<input type="number" name="num">
 		
-		<input type="submit">
-		</form>
+			Please enter a number:<input type="number" id="num">
+		
+		<input type="submit" onClick="calculate()">
+		
+		<script type="text/javascript"  src="calculate.js">
+			calculate();
+		 </script>
 	</body>
 </html>
